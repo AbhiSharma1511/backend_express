@@ -1,0 +1,15 @@
+{
+  "name": "chai_with_backend",
+  "version": "1.0.0",
+  "description": "Backend Journey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascrit",
+    "backend"
+  ],
+  "author": "Abhinav Sharma",
+  "license": "ISC"
+}
