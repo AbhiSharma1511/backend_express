@@ -2,16 +2,19 @@
   "name": "chai_with_backend",
   "version": "1.0.0",
   "description": "Backend Journey",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon src/index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Javascrit",
     "backend"
   ],
-  "author": "Abhinav Sharma",
-  "license": "ISC"
+  "author": "Abhinav Sharma 15/03/2024",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
 }
