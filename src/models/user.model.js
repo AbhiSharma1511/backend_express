@@ -1,5 +1,6 @@
 import mongoose, {Schema} from "mongoose";
-import { jwt } from "jsonwebtoken";
+import pkg from "jsonwebtoken";
+const {jwt} = pkg;
 import bcrypt from "bcrypt";
 
 const userSchema = new mongoose.Schema({
@@ -18,7 +19,7 @@ const userSchema = new mongoose.Schema({
         lowercase: true,
         trim: true
     },
-    fullname:{
+    fullName:{
         type:String,
         required:true,
         trim: true,
@@ -37,7 +38,7 @@ const userSchema = new mongoose.Schema({
             ref: "Video"
         }
     ],
-    assword:{
+    password:{
         type:String,
         required:[true, "Password is required"]
     },
